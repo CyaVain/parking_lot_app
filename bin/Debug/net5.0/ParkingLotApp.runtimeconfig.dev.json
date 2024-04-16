@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "C:\\Users\\Vain\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\Vain\\.nuget\\packages"
+    ]
+  }
+}
