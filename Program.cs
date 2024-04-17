@@ -1,4 +1,5 @@
 ﻿using ParkingLotApp.Features;
+using ParkingLotApp.Models;
 using System;
 using System.ComponentModel.Design;
 
@@ -8,8 +9,13 @@ namespace ParkingLotApp
     {
         static void Main(string[] args)
         {
-            int parkingLots = 6;
-            MainMenu.Menu(parkingLots);
+            int slots = CreateSlots.Slots();
+            ParkingLot lot = new ParkingLot();
+            for (int i = 1; i <= slots; i++)
+            {
+                lot.Slot.Add(i, null);
+            }
+            MainMenu.Menu(lot) ;
         }
     }
 }

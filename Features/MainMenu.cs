@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ParkingLotApp.Models;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -8,36 +9,48 @@ namespace ParkingLotApp.Features
 {
     class MainMenu
     {
-        public static void Menu(int parkingLots)
+        public static void Menu(ParkingLot lot)
         {
             bool status = true;
             while (status)
             {
                 Console.WriteLine("--- Welcome to WaterFall Parking ---");
-                Console.WriteLine($"-- Available Parking Lots : {parkingLots} --\n");
-                Console.WriteLine("Please Type Your Choices");
+
+                int availableSlots = lot.Slot.Count(s => s.Value == null);
+                Console.WriteLine($"-- Available Slots : {availableSlots} --\n");
+
+                Console.WriteLine("Please Pick Your Choices (1 - 4)");
                 Console.WriteLine("1. Check-In \n" +
                     "2. Check-Out \n" +
-                    "3. Reports \n");
+                    "3. Reports \n" +
+                    "4. Exit \n");
                 try
                 {
-                    int choice = Int32.Parse(Console.ReadLine());
+                    string choice = Console.ReadLine();
                     switch (choice)
                     {
-                        case 1:
+                        case "1":
                             {
-                                Console.WriteLine("Checking In");
-                                CheckIn.CheckingIn();
+                                Console.WriteLine("Checking In... \n");
+                                CheckIn.CheckingIn(lot);
                                 break;
                             }
-                        case 2:
+                        case "2":
                             {
                                 Console.WriteLine("Checking Out");
+                                CheckOut.CheckingOut(lot);
                                 break;
                             }
-                        case 3:
+                        case "3":
                             {
                                 Console.WriteLine("Reports");
+                                Reports.ReportMenu(lot);
+                                break;
+                            }
+                        case "4":
+                            {
+                                Console.WriteLine("Exit The Program...");
+                                status = false;
                                 break;
                             }
                         default:

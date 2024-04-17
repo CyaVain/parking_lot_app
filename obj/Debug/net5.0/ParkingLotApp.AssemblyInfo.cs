@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ParkingLotApp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9958fb46d0cb38a836a16d657f2bc945e03c6993")]
 [assembly: System.Reflection.AssemblyProductAttribute("ParkingLotApp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ParkingLotApp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

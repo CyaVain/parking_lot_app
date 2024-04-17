@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ParkingLotApp.Models;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -8,25 +9,29 @@ namespace ParkingLotApp.Features
 {
     class CheckIn
     {
-        public static void CheckingIn()
+        public static void CheckingIn(ParkingLot lot)
         {
             bool status = true;
             while (status)
             {
-                Console.WriteLine("Choose Your Option");
-                Console.WriteLine("1. Park \n" +
-                    "2. Back");
-                int choice = Int32.Parse(Console.ReadLine());
+                Console.WriteLine("Type Your Option (park / back)");
+                Console.WriteLine("Park\n" +
+                    "Back\n");
+                string choice = Console.ReadLine().ToUpper();
 
                 switch(choice)
                 {
-                    case 1:
+                    case "PARK":
                         Console.WriteLine("Parking The Vehicle");
+                        ParkVehicles.Parks(lot);
                         break;
-                    case 2:
+                    case "BACK":
                         Console.WriteLine("Going Back \n");
                         status = false;
-                        break; 
+                        break;
+                    default:
+                        Console.WriteLine("\n ### Please Enter Valid Option ### \n");
+                        break;
                 }
             }
         }
