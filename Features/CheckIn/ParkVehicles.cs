@@ -59,7 +59,7 @@ namespace ParkingLotApp.Features
                                 Console.WriteLine("Going Back..\n");
                                 return;
                             }
-                            else if (colour.Length <= 0 || colour.Length > 15)
+                            else if (colour.Length <= 0 || colour.Length > 10)
                             {
                                 Console.WriteLine("Please Enter Valid Colour");
                             }
@@ -76,18 +76,24 @@ namespace ParkingLotApp.Features
                     }
                 }
                 // End Of Nested If For Validation
+                bool slotFull = false;
                 foreach (int slotNo in lot.Slot.Keys)
                 {
                     if (lot.Slot[slotNo] == null)
                     {
                         lot.Slot[slotNo] = vehicle;
                         Console.WriteLine($"Allocated slot number : {slotNo}\n");
+                        slotFull = false;
                         break;
                     }
                     else
                     {
-                        Console.WriteLine("Sorry, parking lot is full\n");
+                        slotFull = true;
                     }
+                }
+                if(slotFull)
+                {
+                    Console.WriteLine("Sorry, parking lot is full\n");
                 }
 
             }

@@ -12,11 +12,11 @@ namespace ParkingLotApp.Features
         public static int Slots()
         {
             int slots = 0;
-            try
+            while (slots <= 0 || slots > 10)
             {
-                while (slots <= 0 || slots > 10)
+                try
                 {
-                    Console.WriteLine("Input How Many Lots To Create");
+                    Console.WriteLine("Input How Many Slots To Create");
                     slots = Int32.Parse(Console.ReadLine());
                     if (slots == 0)
                     {
@@ -28,14 +28,13 @@ namespace ParkingLotApp.Features
                     }
                     else Console.WriteLine($"Created a parking lot with {slots} slots\n");
                 }
-                return slots;
-
+                catch (Exception e)
+                {
+                    Console.WriteLine($"### {e.Message.ToString()} ### \n");
+                    
+                }
             }
-            catch (Exception e)
-            {
-                Console.WriteLine(e.Message.ToString());
-                return 0;
-            }
+            return slots;
         }
     }
 }

@@ -15,7 +15,7 @@ namespace ParkingLotApp
             {
                 lot.Slot.Add(i, null);
             }
-            MainMenu.Menu(lot) ;
+            MainMenu.Menu(lot);
         }
     }
 }

@@ -1,9 +1,6 @@
 ﻿using ParkingLotApp.Models;
 using System;
-using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace ParkingLotApp.Features
 {
@@ -37,14 +34,14 @@ namespace ParkingLotApp.Features
                             }
                         case "2":
                             {
-                                Console.WriteLine("Checking Out");
+                                Console.WriteLine("Checking Out.. \n");
                                 CheckOut.CheckingOut(lot);
                                 break;
                             }
                         case "3":
                             {
-                                Console.WriteLine("Reports");
-                                Reports.ReportMenu(lot);
+                                Console.WriteLine("Reports.. \n");
+                                ReportMenu.Menu(lot);
                                 break;
                             }
                         case "4":
@@ -61,7 +58,6 @@ namespace ParkingLotApp.Features
                 catch (Exception e) { 
                     Console.WriteLine(e.Message.ToString()); 
                 }
-
             }
         }
     }

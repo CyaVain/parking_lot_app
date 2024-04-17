@@ -13,3 +13,4 @@ D:\Code\NET\ParkingLotApp\ParkingLotApp\obj\Debug\net5.0\refint\ParkingLotApp.dl
 D:\Code\NET\ParkingLotApp\ParkingLotApp\obj\Debug\net5.0\ParkingLotApp.pdb
 D:\Code\NET\ParkingLotApp\ParkingLotApp\obj\Debug\net5.0\ParkingLotApp.genruntimeconfig.cache
 D:\Code\NET\ParkingLotApp\ParkingLotApp\obj\Debug\net5.0\ref\ParkingLotApp.dll
+D:\Code\NET\ParkingLotApp\ParkingLotApp\obj\Debug\net5.0\ParkingLotApp.sourcelink.json

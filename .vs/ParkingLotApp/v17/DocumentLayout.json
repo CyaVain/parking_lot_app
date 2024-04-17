@@ -3,28 +3,28 @@
   "WorkspaceRootPath": "D:\\Code\\NET\\ParkingLotApp\\ParkingLotApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{32A1D1A9-C82B-4044-B1E4-7EEA2018C680}|ParkingLotApp.csproj|d:\\code\\net\\parkinglotapp\\parkinglotapp\\features\\parkvehicles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{32A1D1A9-C82B-4044-B1E4-7EEA2018C680}|ParkingLotApp.csproj|solutionrelative:features\\parkvehicles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{32A1D1A9-C82B-4044-B1E4-7EEA2018C680}|ParkingLotApp.csproj|d:\\code\\net\\parkinglotapp\\parkinglotapp\\features\\mainmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32A1D1A9-C82B-4044-B1E4-7EEA2018C680}|ParkingLotApp.csproj|solutionrelative:features\\mainmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{32A1D1A9-C82B-4044-B1E4-7EEA2018C680}|ParkingLotApp.csproj|d:\\code\\net\\parkinglotapp\\parkinglotapp\\features\\checkout.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{32A1D1A9-C82B-4044-B1E4-7EEA2018C680}|ParkingLotApp.csproj|solutionrelative:features\\checkout.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Code\\NET\\ParkingLotApp\\ParkingLotApp\\Features\\Reports\\Reports.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Features\\Reports\\Reports.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{32A1D1A9-C82B-4044-B1E4-7EEA2018C680}|ParkingLotApp.csproj|d:\\code\\net\\parkinglotapp\\parkinglotapp\\features\\checkin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{32A1D1A9-C82B-4044-B1E4-7EEA2018C680}|ParkingLotApp.csproj|solutionrelative:features\\checkin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Code\\NET\\ParkingLotApp\\ParkingLotApp\\Features\\CheckOut\\CheckOut.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Features\\CheckOut\\CheckOut.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{32A1D1A9-C82B-4044-B1E4-7EEA2018C680}|ParkingLotApp.csproj|d:\\code\\net\\parkinglotapp\\parkinglotapp\\features\\reports.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{32A1D1A9-C82B-4044-B1E4-7EEA2018C680}|ParkingLotApp.csproj|solutionrelative:features\\reports.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Code\\NET\\ParkingLotApp\\ParkingLotApp\\Features\\CheckIn\\ParkVehicles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Features\\CheckIn\\ParkVehicles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Code\\NET\\ParkingLotApp\\ParkingLotApp\\Features\\CheckIn\\CheckIn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Features\\CheckIn\\CheckIn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{32A1D1A9-C82B-4044-B1E4-7EEA2018C680}|ParkingLotApp.csproj|d:\\code\\net\\parkinglotapp\\parkinglotapp\\features\\createslots.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{32A1D1A9-C82B-4044-B1E4-7EEA2018C680}|ParkingLotApp.csproj|solutionrelative:features\\createslots.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{32A1D1A9-C82B-4044-B1E4-7EEA2018C680}|ParkingLotApp.csproj|d:\\code\\net\\parkinglotapp\\parkinglotapp\\features\\mainmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{32A1D1A9-C82B-4044-B1E4-7EEA2018C680}|ParkingLotApp.csproj|solutionrelative:features\\mainmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{32A1D1A9-C82B-4044-B1E4-7EEA2018C680}|ParkingLotApp.csproj|d:\\code\\net\\parkinglotapp\\parkinglotapp\\models\\vehicles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -50,7 +50,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -58,46 +58,43 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "Reports.cs",
-              "DocumentMoniker": "D:\\Code\\NET\\ParkingLotApp\\ParkingLotApp\\Features\\Reports.cs",
-              "RelativeDocumentMoniker": "Features\\Reports.cs",
-              "ToolTip": "D:\\Code\\NET\\ParkingLotApp\\ParkingLotApp\\Features\\Reports.cs",
-              "RelativeToolTip": "Features\\Reports.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "DocumentMoniker": "D:\\Code\\NET\\ParkingLotApp\\ParkingLotApp\\Features\\Reports\\Reports.cs",
+              "RelativeDocumentMoniker": "Features\\Reports\\Reports.cs",
+              "ToolTip": "D:\\Code\\NET\\ParkingLotApp\\ParkingLotApp\\Features\\Reports\\Reports.cs",
+              "RelativeToolTip": "Features\\Reports\\Reports.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAbAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-17T04:53:04.264Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-17T04:53:04.264Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "CheckOut.cs",
-              "DocumentMoniker": "D:\\Code\\NET\\ParkingLotApp\\ParkingLotApp\\Features\\CheckOut.cs",
-              "RelativeDocumentMoniker": "Features\\CheckOut.cs",
-              "ToolTip": "D:\\Code\\NET\\ParkingLotApp\\ParkingLotApp\\Features\\CheckOut.cs",
-              "RelativeToolTip": "Features\\CheckOut.cs",
+              "DocumentMoniker": "D:\\Code\\NET\\ParkingLotApp\\ParkingLotApp\\Features\\CheckOut\\CheckOut.cs",
+              "RelativeDocumentMoniker": "Features\\CheckOut\\CheckOut.cs",
+              "ToolTip": "D:\\Code\\NET\\ParkingLotApp\\ParkingLotApp\\Features\\CheckOut\\CheckOut.cs",
+              "RelativeToolTip": "Features\\CheckOut\\CheckOut.cs",
               "ViewState": "AQIAAAYAAAAAAAAAAAAAABUAAAA2AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-17T04:02:59.496Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-17T04:02:59.496Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "ParkVehicles.cs",
-              "DocumentMoniker": "D:\\Code\\NET\\ParkingLotApp\\ParkingLotApp\\Features\\ParkVehicles.cs",
-              "RelativeDocumentMoniker": "Features\\ParkVehicles.cs",
-              "ToolTip": "D:\\Code\\NET\\ParkingLotApp\\ParkingLotApp\\Features\\ParkVehicles.cs",
-              "RelativeToolTip": "Features\\ParkVehicles.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACIAAABDAAAA",
+              "DocumentMoniker": "D:\\Code\\NET\\ParkingLotApp\\ParkingLotApp\\Features\\CheckIn\\ParkVehicles.cs",
+              "RelativeDocumentMoniker": "Features\\CheckIn\\ParkVehicles.cs",
+              "ToolTip": "D:\\Code\\NET\\ParkingLotApp\\ParkingLotApp\\Features\\CheckIn\\ParkVehicles.cs",
+              "RelativeToolTip": "Features\\CheckIn\\ParkVehicles.cs",
+              "ViewState": "AQIAADwAAAAAAAAAAAAAACIAAABDAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-17T01:05:11.082Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-17T01:05:11.082Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "CreateSlots.cs",
               "DocumentMoniker": "D:\\Code\\NET\\ParkingLotApp\\ParkingLotApp\\Features\\CreateSlots.cs",
               "RelativeDocumentMoniker": "Features\\CreateSlots.cs",
@@ -105,31 +102,29 @@
               "RelativeToolTip": "Features\\CreateSlots.cs",
               "ViewState": "AQIAAAMAAAAAAAAAAAAqwB4AAAAdAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-17T00:54:49.057Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-17T00:54:49.057Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "CheckIn.cs",
-              "DocumentMoniker": "D:\\Code\\NET\\ParkingLotApp\\ParkingLotApp\\Features\\CheckIn.cs",
-              "RelativeDocumentMoniker": "Features\\CheckIn.cs",
-              "ToolTip": "D:\\Code\\NET\\ParkingLotApp\\ParkingLotApp\\Features\\CheckIn.cs",
-              "RelativeToolTip": "Features\\CheckIn.cs",
+              "DocumentMoniker": "D:\\Code\\NET\\ParkingLotApp\\ParkingLotApp\\Features\\CheckIn\\CheckIn.cs",
+              "RelativeDocumentMoniker": "Features\\CheckIn\\CheckIn.cs",
+              "ToolTip": "D:\\Code\\NET\\ParkingLotApp\\ParkingLotApp\\Features\\CheckIn\\CheckIn.cs",
+              "RelativeToolTip": "Features\\CheckIn\\CheckIn.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAA9AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-16T07:42:29.942Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-16T07:42:29.942Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 0,
               "Title": "MainMenu.cs",
               "DocumentMoniker": "D:\\Code\\NET\\ParkingLotApp\\ParkingLotApp\\Features\\MainMenu.cs",
               "RelativeDocumentMoniker": "Features\\MainMenu.cs",
               "ToolTip": "D:\\Code\\NET\\ParkingLotApp\\ParkingLotApp\\Features\\MainMenu.cs",
               "RelativeToolTip": "Features\\MainMenu.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAAC4AAAA2AAAA",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABYAAAA0AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-16T07:11:54.112Z",
               "EditorCaption": ""
@@ -142,10 +137,9 @@
               "RelativeDocumentMoniker": "Models\\Vehicles.cs",
               "ToolTip": "D:\\Code\\NET\\ParkingLotApp\\ParkingLotApp\\Models\\Vehicles.cs",
               "RelativeToolTip": "Models\\Vehicles.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAAA4AAAAkAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAkAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-16T06:40:53.393Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-16T06:40:53.393Z"
             },
             {
               "$type": "Document",
@@ -157,8 +151,7 @@
               "RelativeToolTip": "Models\\ParkingLot.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-16T06:36:04.924Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-16T06:36:04.924Z"
             },
             {
               "$type": "Document",
@@ -168,10 +161,9 @@
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "D:\\Code\\NET\\ParkingLotApp\\ParkingLotApp\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAmAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAeAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-16T06:34:41.728Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-16T06:34:41.728Z"
             },
             {
               "$type": "Document",
