@@ -55,8 +55,9 @@ namespace ParkingLotApp.Features
                             break;
                     }
                 }
-                catch (Exception e) { 
-                    Console.WriteLine(e.Message.ToString()); 
+                catch (Exception e)
+                {
+                    Console.WriteLine(e.Message.ToString());
                 }
             }
         }

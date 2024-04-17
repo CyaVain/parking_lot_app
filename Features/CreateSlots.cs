@@ -31,7 +31,6 @@ namespace ParkingLotApp.Features
                 catch (Exception e)
                 {
                     Console.WriteLine($"### {e.Message.ToString()} ### \n");
-                    
                 }
             }
             return slots;

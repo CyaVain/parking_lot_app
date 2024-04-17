@@ -16,14 +16,15 @@ namespace ParkingLotApp.Features.Reports
             int counter = 0;
             foreach (Vehicles v in lot.Slot.Values)
             {
-                
-                if(v != null)
+
+                if (v != null)
                 {
                     var plateDigits = Regex.Match(v.RegistrationNo, @"\d+");
-                    if(plateDigits.Success) {
+                    if (plateDigits.Success)
+                    {
                         int digits = int.Parse(plateDigits.Value);
 
-                        if(digits % 2 != 0)
+                        if (digits % 2 != 0)
                         {
                             Console.WriteLine($"{v.RegistrationNo}");
                             counter++;
@@ -31,7 +32,7 @@ namespace ParkingLotApp.Features.Reports
                     }
                 }
             }
-            if(counter == 0)
+            if (counter == 0)
             {
                 Console.WriteLine("No Vehicle With Odd Plates Number Parked Here");
             }
@@ -101,7 +102,8 @@ namespace ParkingLotApp.Features.Reports
                         }
                     }
                 }
-                catch(Exception e) {
+                catch (Exception e)
+                {
                     Console.WriteLine(e.Message.ToString());
                 }
             }
@@ -112,7 +114,8 @@ namespace ParkingLotApp.Features.Reports
             bool status = true;
             string input;
             bool foundVehicle = false;
-            while (status) {
+            while (status)
+            {
                 try
                 {
                     Console.WriteLine("Please Type The Colour Of Vehicle example ('Putih', 'hitam' , 'Biru muda')");

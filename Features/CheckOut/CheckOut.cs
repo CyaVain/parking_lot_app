@@ -14,7 +14,8 @@ namespace ParkingLotApp.Features
             try
             {
                 bool status = true;
-                while (status) {
+                while (status)
+                {
 
                     Console.WriteLine($"Please Type The Slot (1 - {lot.Slot.Count})");
                     Console.WriteLine("-- Type 'back' To Go Back --\n");
@@ -43,12 +44,12 @@ namespace ParkingLotApp.Features
                                 lot.Slot[slot] = null;
                                 Console.WriteLine($"Slot number {slot} is free");
                             }
-
                         }
                     }
                 }
             }
-            catch (Exception e) { 
+            catch (Exception e)
+            {
                 Console.WriteLine(e.Message.ToString());
             }
         }

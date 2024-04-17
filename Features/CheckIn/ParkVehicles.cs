@@ -11,13 +11,14 @@ namespace ParkingLotApp.Features
 {
     class ParkVehicles
     {
-        private static string[] digits = {"0","1","2","3","4","5","6","7","8","9"};
         public static void Parks(ParkingLot lot)
         {
-            try {
+            try
+            {
                 Vehicles vehicle = new Vehicles();
                 bool invalidInput = true;
-                while (invalidInput) {
+                while (invalidInput)
+                {
                     Console.WriteLine("Please Type The Registration Number example ('a1234XXX','ab2345yyy') \n Type 'back' to go back \n");
                     string regisNo = Console.ReadLine().ToUpper();
                     if (regisNo.Equals("BACK"))
@@ -49,13 +50,15 @@ namespace ParkingLotApp.Features
                         {
                             Console.WriteLine("Please Enter Valid Vehicle Type");
                         }
-                        else {
+                        else
+                        {
                             type = char.ToUpper(type[0]) + type.Substring(1);
                             vehicle.Type = type;
 
                             Console.WriteLine("Please Type the Colour  example ('putih','hitam')\n Type 'back' to go back \n");
                             string colour = Console.ReadLine().ToLower();
-                            if (colour.Equals("back")){
+                            if (colour.Equals("back"))
+                            {
                                 Console.WriteLine("Going Back..\n");
                                 return;
                             }
@@ -91,7 +94,7 @@ namespace ParkingLotApp.Features
                         slotFull = true;
                     }
                 }
-                if(slotFull)
+                if (slotFull)
                 {
                     Console.WriteLine("Sorry, parking lot is full\n");
                 }

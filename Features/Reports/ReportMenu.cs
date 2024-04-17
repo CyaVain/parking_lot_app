@@ -27,7 +27,7 @@ namespace ParkingLotApp.Features
                         "7. Search Vehicle by Colour\n" +
                         "8. Back To Main Menu \n");
                     string choice = Console.ReadLine();
-                    switch(choice)
+                    switch (choice)
                     {
                         case "1":
                             {
@@ -82,12 +82,10 @@ namespace ParkingLotApp.Features
                                 Console.WriteLine("### Please Enter Valid Option ### \n");
                                 break;
                             }
-
                     }
-
                 }
             }
-            catch(Exception e)
+            catch (Exception e)
             {
                 Console.WriteLine(e.Message.ToString());
             }

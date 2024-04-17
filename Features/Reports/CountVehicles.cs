@@ -12,7 +12,7 @@ namespace ParkingLotApp.Features.Reports
         public static void Motor(ParkingLot lot)
         {
             int counter = 0;
-          foreach(Vehicles v in lot.Slot.Values)
+            foreach (Vehicles v in lot.Slot.Values)
             {
                 if (v != null)
                 {
@@ -30,7 +30,7 @@ namespace ParkingLotApp.Features.Reports
             int counter = 0;
             foreach (Vehicles v in lot.Slot.Values)
             {
-                if(v !=null)
+                if (v != null)
                 {
                     if (v.Type.Equals("Mobil"))
                     {
