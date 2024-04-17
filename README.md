@@ -1,6 +1,11 @@
 ## CREATED BY
 ### KEVIN OCATVIANUS HALIM
 
+## NOTES
+The output demo is in OUTPUT.PDF
+The code explanation is in CODE_OVERVIEW.PDF
+
+
 ### Created Using
 
 Visual Studio Community v.17.9.3
